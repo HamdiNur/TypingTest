@@ -54,7 +54,7 @@ const TypingBox = () => {
                         wordsArray.map((word,index )=> (
                             <span className='word' ref={wordsSpanRef[[index]]}>
                                 {
-                                word.split(' ').map(char => (
+                                word.split('').map(char => (
                                     <span className='current' >{char} </span>
                                  ))
                                 }

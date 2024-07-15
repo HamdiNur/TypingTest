@@ -45,7 +45,7 @@ background: black;
 
 .words{
 
- font-size:24px;
+ font-size:18px;
  display:flex;
  flex-wrap:wrap;  
 }
