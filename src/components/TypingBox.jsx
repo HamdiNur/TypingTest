@@ -7,11 +7,11 @@ const TypingBox = () => {
 
     const inputRef=useRef(null);
   
-    const [wordsArray, setwordArray] = useState (()=> {
-           return generate(40);
+    const [wordsArray, setWordArray] = useState (()=> {
+           return generate(25);
 
     });
-    const [currwordIndex,setCurrWordIndex]=useState(0)
+    const [currWordIndex,setCurrWordIndex]=useState(0);
     const[currCharIndex,setCurrCharIndex]=useState(0);
 
 
@@ -19,20 +19,18 @@ const TypingBox = () => {
     const wordsSpanRef=useMemo(()=>{
         return Array(wordsArray.length).fill(0).map(i=>createRef(null));
     },[wordsArray])
-    console.log(wordsSpanRef)
+
 
     
 
-    const handlUserInput=(e)=>{
-       const allCurrChars=wordsSpanRef[currwordIndex].current.childNodes;
-       if(e.key === allCurrChars[currCharIndex].innerText){
-        console.log("correct");
-       }
-       else
-       {
-        console.log("its incorect");
-       }
-
+    const handlUserInput = (e)=>{
+       const allCurrChars = wordsSpanRef[currWordIndex].current.childNodes;
+         if( e.key === allCurrChars[currCharIndex].textContent){
+            console.log("correct Input");
+         }
+         else {
+            console.log("notssss")
+         }
 
     }
 
@@ -55,7 +53,7 @@ const TypingBox = () => {
                             <span className='word' ref={wordsSpanRef[[index]]}>
                                 {
                                 word.split('').map(char => (
-                                    <span className='current' >{char} </span>
+                                    <span > {char} </span>
                                  ))
                                 }
                             </span>
@@ -76,6 +74,6 @@ const TypingBox = () => {
     );
 }
 
-export default TypingBox
+export default TypingBox;
 
 
