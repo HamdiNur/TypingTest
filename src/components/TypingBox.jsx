@@ -385,18 +385,18 @@ const TypingBox = () => {
           backdropFilter: "blur(2px)",
         }}
         PaperProps={{
-          style: {
-            backgroundColor: "transparent",
-            boxShadow: "none",
-          },
+          // style: {
+          //   backgroundColor: "transparent",
+          //   boxShadow: "none",
+          // },
         }}
         onKeyDown={handleDialogBoxEvents}
       >
-        <DialogTitle>
+        {/* <DialogTitle>
           <div className="instruction">press SPACE to redo</div>
           <div className="instruction">press TAB/ENTER to restart</div>
           <div className="instruction">press any other key to exit</div>
-        </DialogTitle>
+        </DialogTitle> */}
       </Dialog>
     </div>
   );
