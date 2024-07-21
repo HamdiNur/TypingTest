@@ -163,127 +163,127 @@ a{
     cursor: pointer;
 }
 
-// .header{
-//     display: flex;
-//     width: 1000px;
-//     align-self: stretch;
-//     margin-left: auto;
-//     margin-right: auto;
-//     height: 80px;
-//     justify-content: space-between;
-// }
+.header{
+    display: flex;
+    width: 1000px;
+    align-self: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    justify-content: space-between;
+}
 
-// .github-button{
-//     width: 400px;
-//     text-align: center;
-//     background: blue;
-//     height: 3rem;
-//     border: 2px solid;
-//     border-radius: 10px;
-// }
+.github-button{
+    width: 400px;
+    text-align: center;
+    background: blue;
+    height: 3rem;
+    border: 2px solid;
+    border-radius: 10px;
+}
 
-// .user-profile{
-//     width: 1000px;
-//     margin: auto;
-//     display: flex;
-//     min-height: 15rem;
-//     background: ${({theme})=>theme.typeBoxText};
-//     border-radius: 20px;
-//     justify-content: center;
-//     align-text: center;
-// }
+.user-profile{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    min-height: 15rem;
+    background: ${({theme})=>theme.typeBoxText};
+    border-radius: 20px;
+    justify-content: center;
+    align-text: center;
+}
 
-// .user{
-//     width: 50%;
-//     display: flex;
-//     margin-top: 30px;
-//     margin-bottom: 30px;
-//     font-size: 1.5rem;
-//     padding: 1rem;
-//     border-right: 2px solid;
-// }
+.user{
+    width: 50%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-right: 2px solid;
+}
 
-// .info{
-//     width: 60%;
-//     padding: 1rem;
-//     margin-top: 1rem;
-// }
-// .picture{
-//     width: 40%;
-// }
+.info{
+    width: 60%;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.picture{
+    width: 40%;
+}
 
-// .total-tests{
-//     width: 50%;
-//     font-size: 3rem;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+.total-tests{
+    width: 50%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-// .graph, .table{
-//     width: 1000px;
-//     margin: auto;
-// }
+.graph, .table{
+    width: 1000px;
+    margin: auto;
+}
 
-// .center-of-screen{
-//     display:flex;
-//     min-height:100vh;
-//     justify-content: center;
-//     align-items: center;
-//     text-align: center;
-//     font-size: 3rem;
-// }
+.center-of-screen{
+    display:flex;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
 
-// .logo{
-//     display: flex;
-//     gap: 10px;
-//     justify-content: start;
-//     align-items: start;
-// }
+.logo{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+}
 
-// .compare-btn{
-//     cursor: pointer;
-//     color: ${({theme})=>theme.background};
-//     background: ${({theme})=>theme.title};
-//     padding: 0.3rem;
-//     border-radius: 5px;
-//     margin-top: -5px;
-// }
+.compare-btn{
+    cursor: pointer;
+    color: ${({theme})=>theme.background};
+    background: ${({theme})=>theme.title};
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-top: -5px;
+}
 
-// .instruction{
-//     color: ${({theme})=>theme.title};
-// }
+.instruction{
+    color: ${({theme})=>theme.title};
+}
 
-// .hint{
-//     kbd{
-//         background: ${({theme})=>theme.title};
-//         color: ${({theme})=>theme.background};
-//         padding: 2.5px 5px;
-//         border-radius: 4px; 
-//     }
-// }
+.hint{
+    kbd{
+        background: ${({theme})=>theme.title};
+        color: ${({theme})=>theme.background};
+        padding: 2.5px 5px;
+        border-radius: 4px; 
+    }
+}
 
-// .active{
-//     border: 1px solid;
-//     padding: 3px;
-//     margin: 4px;
-// }
+.active{
+    border: 1px solid;
+    padding: 3px;
+    margin: 4px;
+}
 
-// .active-value{
-//     border: 1px solid;
-//     padding: 3px;
-//     margin: 4px;
-//     margin-top: -4px;
-// }
+.active-value{
+    border: 1px solid;
+    padding: 3px;
+    margin: 4px;
+    margin-top: -4px;
+}
 
-// .logo-image{
-//     transform: scale(0.3);
-//     margin-top: -100px;
-//     margin-left: -90px;
-//     display: block;
-// }
+.logo-image{
+    transform: scale(0.3);
+    margin-top: -100px;
+    margin-left: -90px;
+    display: block;
+}
 
-// .mode{
-//     cursor: pointer;
-// }
+.mode{
+    cursor: pointer;
+}
 `;
