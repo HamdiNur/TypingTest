@@ -1,5 +1,6 @@
 import { Dialog, DialogTitle } from "@material-ui/core";
-import { wordsList } from "random-words";
+// import { wordsList } from "random-words";
+/* eslint-disable */
 import React, {
   createRef,
   useEffect,
@@ -11,10 +12,7 @@ import React, {
 import { useTestMode } from "../Context/TestModeContext";
 import Stats from "./Stats";
 import UpperMenu from "./UpperMenu";
-
 import { generate } from "random-words";
-// var randomWords = require("random-words");
-
 const TypingBox = () => {
   // in react you get a hook , useRef()
   // react also provides a function, createRef()
@@ -385,18 +383,18 @@ const TypingBox = () => {
           backdropFilter: "blur(2px)",
         }}
         PaperProps={{
-          // style: {
-          //   backgroundColor: "transparent",
-          //   boxShadow: "none",
-          // },
+          style: {
+            backgroundColor: "transparent",
+            boxShadow: "none",
+          },
         }}
         onKeyDown={handleDialogBoxEvents}
       >
-        {/* <DialogTitle>
+        <DialogTitle>
           <div className="instruction">press SPACE to redo</div>
           <div className="instruction">press TAB/ENTER to restart</div>
           <div className="instruction">press any other key to exit</div>
-        </DialogTitle> */}
+        </DialogTitle>
       </Dialog>
     </div>
   );
