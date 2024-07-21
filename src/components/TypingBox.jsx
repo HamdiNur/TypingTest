@@ -76,4 +76,3 @@ const TypingBox = () => {
 
 export default TypingBox;
 
-
