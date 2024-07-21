@@ -5,6 +5,29 @@
 /.pnp
 .pnp.js
 campus
+Pages
+Utils
+firebaseConfig.js
+Stats.jsx
+AccountIcon.jsx
+Alert.jsx
+CompareButton.jsx
+Footer.jsx
+Header.jsx
+LoginForm.jsx
+ResultTable.jsx
+Graph.jsx
+SignupForm.jsx
+UpperMenu.jsx
+UserInfor.jsx
+AlertContext.jsx
+ThemeContext.jsx
+UserInfo.jsx
+
+
+pastille-methode.svg
+
+
 
 
 # testing
