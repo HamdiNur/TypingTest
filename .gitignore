@@ -12,7 +12,7 @@ Stats.jsx
 AccountIcon.jsx
 Alert.jsx
 CompareButton.jsx
-Footer.jsx
+
 Header.jsx
 LoginForm.jsx
 ResultTable.jsx
@@ -21,7 +21,7 @@ SignupForm.jsx
 
 UserInfor.jsx
 AlertContext.jsx
-ThemeContext.jsx
+
 UserInfo.jsx
 
 
