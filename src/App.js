@@ -4,9 +4,11 @@ import Footer from "./Components/Footer";
 import TypingBox from "./Components/TypingBox";
 import { useTheme } from "./Context/ThemeContext";
 import { GlobalStyles } from "./Styles/global";
+import { auth } from "./firebaseConfig";
+import Header from "./Components/Header";
 
 
-function App() {
+function App() { 
 
   const {theme} = useTheme();
 
