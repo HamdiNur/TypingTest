@@ -143,13 +143,13 @@ const AccountIcon = () => {
                 {value===0 && <LoginForm handleClose={handleClose}/>}
                 {value===1 && <SignupForm handleClose={handleClose}/>}
 
-                {/* <Box>
+                <Box>
                     <span>OR</span>
                     <GoogleButton
                         style={{width:'100%',marginTop:'8px'}}
                         onClick={signInWithGoogle}
                     />
-                </Box> */}
+                </Box>
                 {/* <Box>
                     <span>OR</span>
                     <div className='github-button' onClick={signInWithGithub}>
