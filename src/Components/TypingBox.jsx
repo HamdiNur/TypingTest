@@ -160,8 +160,7 @@ const TypingBox = () => {
       return;
     }
 
-    let allChildSpans = wordSpanRef[currWordIndex].current.childNodes;
-
+    let allChildSpans = wordSpanRef[currWordIndex]?.current?.childNodes || [];
     if (e.keyCode !== 8 && e.key.length > 1) {
       e.preventDefault();
       return;
@@ -302,16 +301,14 @@ const TypingBox = () => {
 
   const resetWordSpanRefClassname = () => {
     wordSpanRef.map((i) => {
-      Array.from(i.current.childNodes).map((j) => {
-        if (j.className.includes("extra")) {
+      Array.from(i.current?.childNodes || []).map((j) => {
+        if (j.className?.includes("extra")) {
           j.remove();
         }
         j.className = "char";
       });
     });
-    wordSpanRef[0].current.childNodes[0].className = "char current";
   };
-
   const calculateWPM = () => {
     return Math.round(
       correctChars / 5 / ((graphData[graphData.length - 1][0] + 1) / 60)
