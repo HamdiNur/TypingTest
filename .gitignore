@@ -9,11 +9,12 @@ campu
 
 
 
-.env
+
 
 
 # testing
 /coverage
+
 
 # production
 /build
