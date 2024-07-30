@@ -16,7 +16,7 @@ The core features of the website include:
 
 5. **Timing Feature:** Users can set a timer for their typing tests, adding a challenging element.
 
-Additionally, the website may include an optional "Compare Feature" that allows users to compare their typing test results with their past performances and with other users, encouraging friendly competition.
+ 6. **"Compare Feature"** t hat allows users to compare their typing test results with their past performances and with other users, encouraging friendly competition.
 
 ## Core Features
 
@@ -49,8 +49,11 @@ This optional feature allows users to compare their typing test results:
 
 ## Version Control and Deployment
 
-- Version control: The project will utilize Git for version control, with regular and meaningful commits.
-- Deployment: The website will be deployed using either GitHub Pages, Netlify, or Vercel, ensuring user accessibility.
+Clone the repository: git clone https://github.com/HamdiNur/TypingTest
+Navigate to the project's root directory: cd Typingtestweb
+Install the project dependencies: yarn add @material-ui/core   you might need to install this to avoid old version is not working
+Start the development server: npm start or yarn start
+Access the website at http://localhost:3000/
 
 ## Technologies
 
