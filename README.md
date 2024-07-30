@@ -54,7 +54,8 @@ Navigate to the project's root directory: cd Typingtestweb
 Install the project dependencies: yarn add @material-ui/core   you might need to install this to avoid old version is not working
 Start the development server: npm start or yarn start
 Access the website at http://localhost:3000/
-
+## Deployment 
+ click here  https://vercel.com/hamdi-nurs-projects/typing-testwebsite
 ## Technologies
 
 - React
