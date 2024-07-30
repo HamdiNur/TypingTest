@@ -1,67 +1,70 @@
-# Getting Started with Create React App
+# TypingTest Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project aims to develop a web application, "Typing Test Website," built using React.js. The website will provide users with a platform to practice their typing skills, track their progress, and customize their experience.
 
-In the project directory, you can run:
+The core features of the website include:
 
-### `npm start'
+1. **Typing Test:** Users can initiate typing tests, with the system recording their speed, accuracy, and other relevant data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **User Authentication:** The website utilizes Firebase Authentication, allowing users to create accounts, sign in, and save their typing test results.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Data Storage:** Firestore, the NoSQL database from Firebase, will store user accounts and their typing test results.
 
-### `npm test`
+4. **User Profile:** A dedicated user page will display the user's typing test history, personal bests, and an option to update their profile information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Timing Feature:** Users can set a timer for their typing tests, adding a challenging element.
+
+Additionally, the website may include an optional "Compare Feature" that allows users to compare their typing test results with their past performances and with other users, encouraging friendly competition.
+
+## Core Features
+
+### Typing Test
+This is the central feature of the website, where users can initiate typing tests, and the system records their speed, accuracy, and other relevant data.
+
+### User Authentication
+The website uses Firebase Authentication to enable users to:
+- Create accounts
+- Sign in
+- Save their typing test results
+
+### Data Storage
+Firestore, the NoSQL database from Firebase, will store user accounts and their typing test results.
+
+### User Profile
+A dedicated user page will display:
+- Typing test history
+- Personal bests
+
+### Timing Feature
+Users can set a timer for their typing tests, adding a challenging element to the experience.
 
 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Compare Feature
+This optional feature allows users to compare their typing test results:
+- With their past performances
+- With other users, encouraging friendly competition
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Version Control and Deployment
 
-### `npm run eject`
+- Version control: The project will utilize Git for version control, with regular and meaningful commits.
+- Deployment: The website will be deployed using either GitHub Pages, Netlify, or Vercel, ensuring user accessibility.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- JavaScript
+- HTML
+- CSS
+- Firebase (Authentication and Firestore)
+- Yarn (package manager)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Challenges Faced
+## Integrating Firebase
+One of the key challenges I faced in this project was the integration of Firebase, as I had no prior experience with this platform. However, I proactively addressed this challenge by conducting extensive research and learning how to effectively utilize Firebase Authentication and Firestore database services. This learning process involved understanding the setup, configuration, and implementation of these Firebase features within the React.js application.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project aims to help users improve their typing skills through a personalized and engaging experience. The combination of a well-designed user interface, performance tracking, and optional comparison features will provide users with a comprehensive typing practice platform.
