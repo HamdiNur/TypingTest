@@ -59,7 +59,13 @@ const UserPage = () => {
     }
 
   return (
-    
+    <div className='canvas'>
+        <UserInfo totalTestTaken={data.length}/>
+        <div className="graph">
+            <Graph graphData={graphData} type='date'/>
+        </div>
+        <ResultTable data={data}/>
+    </div>
   )
 }
 
