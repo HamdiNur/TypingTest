@@ -30,7 +30,7 @@ const Footer = () => {
           <a href='https://github.com/HamdiNur' target="_blank">
           <GitHubIcon style={{marginRight:'4px'}}/>
           </a>
-          <a href='https://www.linkedin.com/in/utkarsh2504/' target="_blank">
+          <a href='https://www.linkedin.com/in/hamdi-nur-98352831b/' target="_blank">
           <LinkedInIcon/>
           </a>
             
