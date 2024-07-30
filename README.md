@@ -55,7 +55,7 @@ Install the project dependencies: yarn add @material-ui/core   you might need to
 Start the development server: npm start or yarn start
 Access the website at http://localhost:3000/
 ## Deployment 
- click here typing-testwebsite.vercel.app
+ click here https://typing-testwebsite-git-master-hamdi-nurs-projects.vercel.app/
 
 ## Technologies
 
