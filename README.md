@@ -55,7 +55,8 @@ Install the project dependencies: yarn add @material-ui/core   you might need to
 Start the development server: npm start or yarn start
 Access the website at http://localhost:3000/
 ## Deployment 
- click here https://typing-testwebsite-git-master-hamdi-nurs-projects.vercel.app/
+
+ Click here https://typing-testwebsite-git-master-hamdi-nurs-projects.vercel.app/
 
 ## Technologies
 
@@ -70,6 +71,13 @@ Access the website at http://localhost:3000/
 ## Challenges Faced
 ## Integrating Firebase
 One of the key challenges I faced in this project was the integration of Firebase, as I had no prior experience with this platform. However, I proactively addressed this challenge by conducting extensive research and learning how to effectively utilize Firebase Authentication and Firestore database services. This learning process involved understanding the setup, configuration, and implementation of these Firebase features within the React.js application.
+## Modes 
+## there two modes Timer and Word
+## Timer
+ In the Timer Mode, the 15s, 30s, and 60s options work as expected. However, in the Word Mode, the 10-word option functions correctly, but the 20-word and 30-word options do not. I'd appreciate your assistance in investigating the word count logic to ensure all options are implemented properly.
 
+## Sign with google button
+I'm facing an issue with the "Sign with Google" button on the Typing Test website. The button was working correctly during the development phase, but it stopped functioning after I deployed the website.
+i'm currantly working to figure out  what is the problem 
 
 This project aims to help users improve their typing skills through a personalized and engaging experience. The combination of a well-designed user interface, performance tracking, and optional comparison features will provide users with a comprehensive typing practice platform.
