@@ -4,6 +4,8 @@
 
 This project aims to develop a web application, "Typing Test Website," built using React.js. The website will provide users with a platform to practice their typing skills, track their progress, and customize their experience.
 
+## Core Features
+
 The core features of the website include:
 
 1. **Typing Test:** Users can initiate typing tests, with the system recording their speed, accuracy, and other relevant data.
@@ -18,7 +20,6 @@ The core features of the website include:
 
  6. **"Compare Feature"** t hat allows users to compare their typing test results with their past performances and with other users, encouraging friendly competition.
 
-## Core Features
 
 ### Typing Test
 This is the central feature of the website, where users can initiate typing tests, and the system records their speed, accuracy, and other relevant data.
