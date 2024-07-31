@@ -14,7 +14,7 @@ The core features of the website include:
 
 3. **Data Storage:** Firestore, the NoSQL database from Firebase, will store user accounts and their typing test results.
 
-4. **User Profile is the picture :** A dedicated user page will display the user's typing test history, personal bests, and an option to update their profile information.
+4. **User Profile:** A dedicated user page will display the user's typing test history, personal bests, and an option to update their profile information.
 
 5. **Timing Feature:** Users can set a timer for their typing tests, adding a challenging element.
 
